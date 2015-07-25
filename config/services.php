@@ -30,7 +30,7 @@ return [
     ],
 
     'stripe' => [
-        'model'  => App\User::class,
+        'model'  => Fantagrade\User::class,
         'key'    => '',
         'secret' => '',
     ],
