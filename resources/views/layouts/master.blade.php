@@ -34,6 +34,6 @@
     <div class="container">
         @yield('content')
     </div>
-    <script type="text/javascript" src="assets/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/assets/bootstrap.min.js"></script>
 </body>
 </html>
