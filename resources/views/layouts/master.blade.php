@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Fantagrade - @yield('title')</title>
-    <link rel="stylesheet" href="assets/bootstrap.min.css" type="text/css" media="all" />
-    <script type="text/javascript" src="assets/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="/assets/bootstrap.min.css" type="text/css" media="all" />
+    <script type="text/javascript" src="/assets/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="/assets/fantagrade.css" type="text/css" media="all" />
 </head>
 <body>
     <!-- Fixed navbar -->
@@ -19,7 +20,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/"><img src="images/logo.png"/></a>
+          <a class="navbar-brand" href="/"><img src="/images/logo.svg" width="200"/></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
